@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="css/global.css" rel="stylesheet">
+    <link href="css/welcome-page.css" rel="stylesheet">
+    <link href="css/product-description.css" rel="stylesheet">
+    <link href="css/contact.css" rel="stylesheet">
+    <title>Shoe website</title>
+</head>
+<body>
+    <!-- Start of welcome page -->
+        <div class="welcome-page">
+            <nav class="welcome-page__navbar">
+                <ul class="welcome-page__navbar-list">
+                    <li class="welcome-page__navbar-list-item">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="welcome-page__navbar-list-item">
+                        <a href="#product-description">Shoes</a>
+                    </li>
+                    <li class="welcome-page__navbar-list-item">
+                        <a href="#contact">About</a>
+                    </li>
+                    <li class="welcome-page__navbar-list-item-icon">
+                        <a href="#">
+                            <img src="/images/cart.svg" alt="cart-icon" class="welcome-page__navbar-list-icon">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="welcome-page__main">
+                <div class="welcome-page__text">
+                    <div class="welcome-page__text-header">
+                        <h1>Run Faster</h1>
+                    </div>
+                    <div class="welcome-page__text-desc">
+                        <h3>Made for high speed running</h3>
+                    </div>
+                    <div class="welcome-page__text-buttons">
+                        <div class="welcome-page__text-button--active">
+                            <a href="#" class="welcome-page__button--active">Shop Now</a>
+                        </div>
+                        <div class="welcome-page__text-button">
+                            <a href="#" class="welcome-page__button">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="welcome-page__image">
+                    <img src="/images/shoes.png" alt="" class="welcome-page__image-photo">
+                </div>
+            </div>
+        </div>
+    <!-- End of welcome page -->
+
+    <!-- Start of product description page -->    
+        <div class="product-description" id="product-description">
+            <div class="product-description__text">
+                <h2 class="product-description__text-header">Air Boost</h2>
+                <p class="product-description__text-paragraph">Designed for maximum speed</p>
+                <p class="product-description__text-paragraph">With a soft and lightweight finish to give you the extra boost of speed</p>
+                <p class="product-description__text-price">Price: $199</p>
+                <div class="product-description__text-button">
+                    <a href="#" class="product-description_text-btn">Shop Now</a>
+                </div>
+            </div>
+            <div class="product-description__image">
+                <img src="/images/shoes 2.png" alt="shoes-photo" class="product_description__image-photo">
+                <div class="product-description__image-circles">
+                    <div class="product-description__image-circle"></div>
+                    <div class="product-description__image-circle"></div>
+                    <div class="product-description__image-circle"></div>
+                </div>
+            </div>
+        </div>
+    <!-- End of product description page -->
+
+    <!-- Start of contact page --> 
+        <div class="contact" id="contact">
+            <div class="contact__text">
+                <h2 class="contact__text-header">Contact Us</h2>
+            </div>
+            <div class="contact__form-circle-background">
+            </div>
+            <div class="contact__form-form">
+                <form action="">
+                    <div class="contact__form-item">
+                        <label for="name" class="contact__form-item-label">Name</label>
+                        <input type="text" placeholder="Enter your name..." class="contact__form-item-input">
+                    </div>
+                    <div class="contact__form-item">
+                        <label for="email" class="contact__form-item-label">Email</label>
+                        <input type="text" placeholder="Enter your email..." class="contact__form-item-input">
+                    </div>
+                    <div class="contact__form-item">
+                        <label for="name" class="contact__form-item-label">Message</label>
+                        <textarea name="message" id="" cols="30" rows="10" class="contact__form-item-input" placeholder="Enter your message here..."></textarea>
+                    </div>
+                    <button class="contact__form-button">Send</button>
+                </form>
+            </div>
+            <!--
+                <a href="#" class="contact-jump-top">
+                <img src="/images/up-arrow.svg" alt="" height="30px">
+            </a>
+            -->
+        </div>
+    <!-- End of contact page -->
+</body>
+</html>
