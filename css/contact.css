@@ -1,10 +1,11 @@
 .contact{
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     display: flex;
     position: relative;
     overflow: hidden;
     min-height: 500px;
+    max-width: 100vw;
 }
 
 .contact__text, .contact__form-form{
