@@ -87,7 +87,7 @@
     background-color: #44FF8F;
 }
 
-@media (max-width: 900px){
+@media (max-width: 1025px){
     .product-description{
         flex-direction: column;
     }

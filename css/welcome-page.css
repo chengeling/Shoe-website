@@ -131,7 +131,7 @@
     height: 100%;
 }
 
-@media (max-width: 900px){
+@media (max-width: 1025px){
 
     .welcome-page__navbar{
         justify-content: center;
